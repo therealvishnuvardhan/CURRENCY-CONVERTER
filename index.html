@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>💱 Cu₹₹ency Conve₹te₹💱</h1>
+
+  <div class="container">
+    <input type="number" id="amount" placeholder="Enter amount" class="blur-box">
+
+    
+    <div class="currency-row">
+      <select id="fromcurrency" class="blur-box">
+        <option value="USD">USD</option>
+        <option value="INR">INR</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="JPY">JPY</option>
+      </select>
+
+      <button id="swap" class="blur-box">⇄</button>
+
+      <select id="tocurrency" class="blur-box">
+        <option value="INR">INR</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="JPY">JPY</option gg>
+      </select>
+    </div>
+
+  
+    <button id="convertbutton" class="blur-box">Convert</button>
+
+    
+    <div id="result" class="blur-box"></div>
+
+    <button id="resetbutton" class="blur-box">Reset</button>
+  </div>
+</body>
+</html>
+<script src="script.js"></script>
